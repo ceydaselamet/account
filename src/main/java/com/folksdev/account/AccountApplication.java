@@ -22,6 +22,7 @@ public class AccountApplication implements CommandLineRunner {
 		SpringApplication.run(AccountApplication.class, args);
 	}
 
+
 	@Override
 	public void run(String... args) throws Exception {
 		Customer customer = customerRepository.save(new Customer("","Hüseyin","Çağrı", new HashSet<>()));

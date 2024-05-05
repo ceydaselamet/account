@@ -19,5 +19,5 @@ data class Customer(
 ) {
 
     constructor() : this(null, null, null, HashSet())
-    //constructor(name: String, surname: String) : this(null, name, surname, null)
+    constructor(name: String, surname: String) : this("", name, surname, HashSet())
 }
